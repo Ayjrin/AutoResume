@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  swcMinify: true,
+  experimental: {
+    serverComponentsExternalPackages: ['sharp', 'pdf-parse']
+  }
 };
 
 module.exports = nextConfig;
