@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: 'standalone',
+  // Remove standalone output for Vercel compatibility
+  // output: 'standalone',
   experimental: {
     serverComponentsExternalPackages: ['sharp', 'pdf-parse']
   },
@@ -15,8 +16,6 @@ const nextConfig = {
   serverRuntimeConfig: {
     PROJECT_ROOT: __dirname,
   },
-  // Explicitly set the build directory
-  distDir: '.next',
 };
 
 // Enable bundle analyzer in analyze mode

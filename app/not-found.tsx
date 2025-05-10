@@ -15,7 +15,7 @@ export default function NotFound() {
       <div className="mt-16 p-4 bg-gray-100 dark:bg-gray-800 rounded-lg max-w-lg">
         <h2 className="text-lg font-semibold mb-2">Debugging Information</h2>
         <p className="text-sm mb-2">
-          If you're seeing this page unexpectedly during deployment, please check:
+          If you&apos;re seeing this page unexpectedly during deployment, please check:
         </p>
         <ul className="text-sm text-left list-disc pl-5">
           <li>API routes are configured correctly</li>

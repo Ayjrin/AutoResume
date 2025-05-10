@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "cross-env NODE_OPTIONS='--inspect' next build",
+    "build": "next build",
     "build:analyze": "cross-env ANALYZE=true next build",
-    "build:verbose": "cross-env NODE_OPTIONS='--inspect' next build --debug",
+    "build:debug": "cross-env NODE_OPTIONS='--inspect' next build --debug",
     "start": "next start",
     "lint": "next lint"
   },
