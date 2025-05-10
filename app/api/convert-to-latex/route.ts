@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
+
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 import { convertResumeToLatex } from '@/shared/lib/gemini';
 
 // POST /api/convert-to-latex
