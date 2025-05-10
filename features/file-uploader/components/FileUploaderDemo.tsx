@@ -49,7 +49,7 @@ export function FileUploaderDemo() {
         formData.append('files', file);
       });
       
-      const ingestResponse = await fetch('/api/ingest', {
+      const ingestResponse = await fetch(`${window.location.origin}/api/ingest`, {
         method: 'POST',
         body: formData,
       });
@@ -66,7 +66,7 @@ export function FileUploaderDemo() {
         convertFormData.append('files', file);
       });
       
-      const convertResponse = await fetch('/api/convert-to-latex', {
+      const convertResponse = await fetch(`${window.location.origin}/api/convert-to-latex`, {
         method: 'POST',
         body: convertFormData,
       });
