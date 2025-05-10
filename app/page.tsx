@@ -10,7 +10,7 @@ export default function Home() {
         </p>
       </header>
       <main className="flex flex-col w-full max-w-4xl mx-auto flex-1">
-        <div className="w-full mx-auto bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md">
+        <div className="w-full mx-auto bg-white dark:bg-gray-900 p-8 rounded-lg shadow-md">
           <FileUploaderDemo />
         </div>
       </main>
