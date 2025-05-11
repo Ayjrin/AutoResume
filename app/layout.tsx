@@ -24,7 +24,9 @@ export default function RootLayout({
         className={`${inter.variable} font-sans antialiased min-h-screen bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-50 transition-colors`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <ThemeToggle />
+          <div className="fixed top-8 right-8 z-50">
+            <ThemeToggle />
+          </div>
           {children}
         </ThemeProvider>
       </body>
