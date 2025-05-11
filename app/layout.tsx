@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Resume Formatter - LaTeX... it's just better.",
+  title: "Resume LaTeX-er - LaTeX... it's just better.",
   description: "Convert your resume to professional LaTeX format",
 };
 
