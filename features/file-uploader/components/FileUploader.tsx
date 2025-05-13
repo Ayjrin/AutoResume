@@ -176,10 +176,13 @@ export function FileUploader({
           ))}
           
           {multiple && (
-            <label htmlFor="file-upload" className="relative cursor-pointer bg-white rounded-lg font-medium text-blue-600 hover:text-blue-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-blue-500">
+            <button
+              onClick={handleButtonClick}
+              className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-500 dark:hover:text-blue-300 font-medium transition-colors"
+            >
               <Upload className="h-4 w-4 mr-1" />
               Add more files
-            </label>
+            </button>
           )}
         </div>
       )}

@@ -26,50 +26,80 @@
 %---------------
 %%%% FONTS %%%%%
 %---------------
+% Reference guide for Roman, Sans Serif and Typewriter typefaces
+% Uncomment only ONE font option
 
-%----------------------------------------------------------------
-% SERIF FONTS
-%----------------------------------------------------------------
-% Uncomment your desired option:
-% \renewcommand{\rmdefault}{cmr}                % Computer Modern (default)
-% \usepackage{lmodern} \renewcommand{\rmdefault}{lmr}  % Latin Modern
-% \renewcommand{\rmdefault}{ptm}                % Times
-% \renewcommand{\rmdefault}{ppl}                % Palatino
-% \renewcommand{\rmdefault}{pbk}                % Bookman
-% \renewcommand{\rmdefault}{pnc}                % New Century Schoolbook
-% \renewcommand{\rmdefault}{bch}                % Charter
-% \renewcommand{\rmdefault}{put}                % Utopia
-% \renewcommand{\rmdefault}{qpl}                % TeX Gyre Schola
-% \renewcommand{\rmdefault}{qtm}                % TeX Gyre Termes
-%----------------------------------------------------------------
+%------------------------
+% ROMAN (SERIF) FONTS
+%------------------------
+% Computer Modern Roman (default - no package needed)
+% Font code: cmr
 
-%----------------------------------------------------------------
+% Latin Modern Roman
+% \usepackage{lmodern}  % Font code: lmr
+
+% Latin Modern Dunhill
+% \usepackage{lmodern}  % Font code: lmdh
+
+% TeX Gyre Termes
+% \usepackage{tgtermes}  % Font code: qtm
+
+% TeX Gyre Pagella
+% \usepackage{tgpagella}  % Font code: qpl
+
+% TeX Gyre Bonum
+% \usepackage{tgbonum}  % Font code: qbk
+
+% TeX Gyre Schola
+% \usepackage{tgschola}  % Font code: qcs
+
+% Times
+% \usepackage{mathptmx}  % Font code: ptm
+
+% Utopia/Fourier
+% \usepackage{fourier}  % Font code: put
+
+% Palatino
+% \usepackage{palatino}  % Font code: ppl
+
+% Bookman
+% \usepackage{bookman}  % Font code: pbk
+
+% Charter
+% \usepackage{charter}  % Font code: bch
+
+%------------------------
 % SANS SERIF FONTS
-%----------------------------------------------------------------
-% Uncomment your desired option:
-% \renewcommand{\sfdefault}{cmss}               % Computer Modern Sans
-% \usepackage{lmodern} \renewcommand{\sfdefault}{lmss}  % Latin Modern Sans
-% \renewcommand{\sfdefault}{phv}                % Helvetica
-% \renewcommand{\sfdefault}{pag}                % Avant Garde
-% \renewcommand{\sfdefault}{qhv}                % TeX Gyre Heros
-% \renewcommand{\sfdefault}{qiv}                % TeX Gyre Adventor
-% \renewcommand{\sfdefault}{nvs}                % Nimbus Sans L
-%----------------------------------------------------------------
+%------------------------
+% Computer Modern Sans Serif
+% Font code: cmss
 
-%----------------------------------------------------------------
-% MONOSPACE FONTS
-%----------------------------------------------------------------
-% Uncomment your desired option:
-% \renewcommand{\ttdefault}{cmtt}               % Computer Modern Typewriter (default)
-% \usepackage{lmodern} \renewcommand{\ttdefault}{lmtt}  % Latin Modern Mono
-% \renewcommand{\ttdefault}{pcr}                % Courier
-% \renewcommand{\ttdefault}{zi4}                % Inconsolata
-% \renewcommand{\ttdefault}{nmm}                % Nimbus Mono L
-% \renewcommand{\ttdefault}{anpro}              % Anonymous Pro
-% \renewcommand{\ttdefault}{luximono}           % Luxi Mono
-% \renewcommand{\ttdefault}{inm}                % Input Mono
-% \renewcommand{\ttdefault}{fira}               % Fira Mono
-% \renewcommand{\ttdefault}{dejavu}             % DejaVu Sans Mono
+% Latin Modern Sans Serif
+% \usepackage{lmodern}  % Font code: lmss
+
+% TeX Gyre Adventor
+% \usepackage{tgadventor}  % Font code: qag
+
+% TeX Gyre Heros
+% \usepackage{tgheros}  % Font code: qhv
+
+% Helvetica
+% \usepackage{helvet}  % Font code: phv
+
+%------------------------
+% TYPEWRITER FONTS
+%------------------------
+% Computer Modern Typewriter
+% Font code: cmtt
+
+% Latin Modern Typewriter
+% \usepackage{lmodern}  % Font code: lmtt
+
+% TeX Gyre Cursor
+% \usepackage{tgcursor}  % Font code: qcr
+
+% Courier
+% \usepackage{courier}  % Font code: pcr
 %----------------------------------------------------------------
 
 \pagestyle{fancy}
