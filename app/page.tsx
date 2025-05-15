@@ -16,9 +16,9 @@ export default function Home() {
       </main>
       
       <footer className="w-full py-6 text-center text-sm text-gray-500 dark:text-gray-400">
-        <p>MIT License</p>
+        <p>MIT License</p><a href="https://github.com/Ayjrin/LaTeX-er">MIT License</a>
         <p>
-          <a href="https://github.com/Ayjrin/AutoResume">GitHub</a> | <a href="https://bsky.app/profile/ayjrin.bsky.social">Bluesky</a>
+          <a href="https://github.com/Ayjrin/LaTeX-er">GitHub</a> | <a href="https://bsky.app/profile/ayjrin.bsky.social">Bluesky</a>
         </p>
       </footer>
     </div>
